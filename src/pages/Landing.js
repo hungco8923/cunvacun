@@ -67,13 +67,13 @@ export default function Landing() {
             việc phải giả vờ tỏ ra là anh chẳng sao. Đấy là còn chưa kể em rất
             thương anh vì anh bị mất ngủ thường xuyên quá, mà gặp chuyện bọn
             mình là anh trắng đêm luôn. Siêu anh hùng trong lòng tui (nói vậy
-            nhma ko có nghĩa là anh được ôm hết mọi thứ đâu )) May mắn thế nào
-            bọn mình vẫn đang nằm đây gọi cho nhau lúc ngủ. Dù đã có điều gì
-            thay đổi từ đầu tới giờ, nhưng em tự tin nói rằng tình yêu em dành
-            cho anh vẫn vậy, chưa bao giờ ít đi một tí nào. Em có thể đã có lúc
-            nhụt chí, nhưng tình yêu dành cho anh vẫn là thứ vực em dậy được. Em
-            tự hào và hạnh phúc rất nhiều khi được yêu anh. Em muốn sau này sẽ
-            may mắn tới mức được kết hôn với anh và lập một gia đình nhỏ của bọn
+            nhma ko có nghĩa là anh được ôm hết mọi thứ đâu) May mắn thế nào bọn
+            mình vẫn đang nằm đây gọi cho nhau lúc ngủ. Dù đã có điều gì thay
+            đổi từ đầu tới giờ, nhưng em tự tin nói rằng tình yêu em dành cho
+            anh vẫn vậy, chưa bao giờ ít đi một tí nào. Em có thể đã có lúc nhụt
+            chí, nhưng tình yêu dành cho anh vẫn là thứ vực em dậy được. Em tự
+            hào và hạnh phúc rất nhiều khi được yêu anh. Em muốn sau này sẽ may
+            mắn tới mức được kết hôn với anh và lập một gia đình nhỏ của bọn
             mình. Chắc mấy lời này chả thấm thoát gì với những khó khăn anh đang
             phải chiến đấu. Nhưng ít nhất em cũng phải nói ra những điều tốt đẹp
             anh xứng đáng nghe được, bởi vì ANH LÀ MÓN QUÀ ĐỘC NHẤT ĐẶC BIỆT CỦA
