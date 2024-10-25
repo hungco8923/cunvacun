@@ -9,8 +9,8 @@ export default function Navbar() {
       </Link>
 
       <nav className="navbar">
-        <Link to="/">Home</Link>
-        <Link to="/gallery">Gallery</Link>
+        <Link to="/cunvacun/">Home</Link>
+        <Link to="/cunvacun/gallery">Gallery</Link>
       </nav>
     </header>
   );
