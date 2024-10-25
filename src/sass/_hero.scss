@@ -6,6 +6,10 @@
   color: white;
 
   .container {
+    position: relative;
+    // transform: translate(());
+    top: 25%;
+    left: -10%;
     width: 90%;
     height: 100%;
     max-width: 1200px;
@@ -29,6 +33,14 @@
         font-size: 1.2rem;
         // max-width: 60%;
       }
+    }
+  }
+}
+
+@media (max-width: 1408px) {
+  .hero {
+    .container {
+      position: static;
     }
   }
 }

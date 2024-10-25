@@ -116,7 +116,7 @@
 }
 
 /* Responsive styles */
-@media (max-width: 968px) {
+@media (max-width: 1400px) {
   .divider {
     flex-direction: column; /* Stack items vertically */
   }
@@ -134,7 +134,7 @@
 
   .divider__hung p,
   .divider__hoa p {
-    font-size: 1rem; /* Adjust font size for smaller screens */
+    font-size: 3rem; /* Adjust font size for smaller screens */
   }
 
   .divider__hung .dialog,
