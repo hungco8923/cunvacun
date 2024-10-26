@@ -9,55 +9,96 @@
   justify-content: space-between;
   align-items: center;
   z-index: 3;
+}
 
-  a {
+.logo {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 40px;
+  position: relative;
+}
+
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.navbar a:hover::before {
+  width: 100%;
+}
+
+/* Menu Toggle Button */
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 968px) {
+  nav.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
     color: white;
-    text-decoration: none;
-    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    transform: translateX(100%); /* Start off-screen to the left */
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
   }
 
-  .logo {
-    font-size: 40px;
-    color: #fff;
-    font-weight: 700;
+  .navbar.open {
+    transform: translateX(0); /* Slide into view */
+    opacity: 1;
+    visibility: visible;
   }
 
   .navbar a {
-    position: relative;
-    font-size: 30px;
-    font-weight: 500;
-    margin-left: 40px;
+    font-size: 20px;
+    margin: 10px 0;
   }
 
-  .navbar a::before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 0%;
-    width: 0;
-    height: 2px;
-    background: #fff;
-    transition: 0.3s;
+  .logo {
+    font-size: 32px;
+  }
+
+  .menu-toggle {
+    display: block;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+  }
+
+  .no-scroll {
+    overflow: hidden;
   }
 
   .navbar a:hover::before {
-    width: 100%;
-  }
-}
-
-@media (max-width: 600px) {
-  .header {
-    .navbar a {
-      position: relative;
-      font-size: 12px;
-      font-weight: 500;
-      margin-left: 40px;
-    }
-
-    .logo {
-      font-size: 32px;
-      color: #fff;
-      font-weight: 700;
-    }
+    width: 0;
   }
 }
